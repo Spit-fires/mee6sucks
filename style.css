@@ -1,7 +1,7 @@
 /* Style the navigation menu */
 .topnav {
   overflow: hidden;
-  background-color: #333;
+  background-color: cyan;
   position: relative;
 }
 
@@ -21,7 +21,7 @@
 
 /* Style the hamburger menu */
 .topnav a.icon {
-  background: black;
+  background: darkcyan;
   display: block;
   position: absolute;
   right: 0;
@@ -30,12 +30,33 @@
 
 /* Add a grey background color on mouse-over */
 .topnav a:hover {
-  background-color: #ddd;
+  background-color: darkcyan;
   color: black;
 }
 
 /* Style the active link (or home/logo) */
 .active {
-  background-color: #04AA6D;
+  background-color: darkcyan;
   color: white;
+}
+.ibh {
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 3px solid black;
+  max-width: 100%;
+  height: auto;
+}
+.learnwhy {
+  display: block;
+  background-color: darkcyan;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  margin:0 auto;
+  display:block;
 }
