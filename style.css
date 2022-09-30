@@ -156,7 +156,7 @@
     transform: translateX(-50%);
 }
 
-.indicators button{
+.indicators .button{
     background: none;
     border: none;
     outline: none;
@@ -169,7 +169,7 @@
     transition: .5s;
 }
 
-button.active{
+button .active{
     width: 40px;
     border-radius: 50px;
     background: #fff;

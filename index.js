@@ -1,5 +1,5 @@
 const wrapper = document.querySelector('.wrapper');
-const indicators = [...document.querySelectorAll('.indicators button')];
+const indicators = [...document.querySelectorAll('.indicators .button')];
 
 let currentTestimonial = 0; // Default 0
 
